@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 10, 2022, 8:29:46 PM
+    Author     : howan
+*/
+
+body,html { background-color: #737373; padding: 0; margin: 0;}
+header{background-color: #373737; height: 45px; padding: 0px 5px; outline: none;}
+header button{font-family: Ravenna; color: #ffffff; background: none; width: 150px; 
+              height: 30px; outline: none; position: relative; top: 7px; border: none; 
+              border:solid}
+header button:hover {color: #00ffff;}
+header button:active {color: #213126;}
+#discord {left: 155px}
+#randoSettings {left:  315px;}
+#trackerSettings {left: 520px;}
+#randoSettings, #trackerSettings {position: fixed; width: 200px;}
+.fileDropdown {height: 45px;margin: 0;padding: 0;position: fixed;}
+.fileSubmenu {display: none ; border: none; outline: none; z-index: 1;}
+.fileDropdown:hover .fileSubmenu {display: grid; width: 200px;}
+.fileSubmenu button {background-color: #373737;}

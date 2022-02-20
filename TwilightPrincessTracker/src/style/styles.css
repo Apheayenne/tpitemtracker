@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 8, 2022, 3:42:03 PM
+    Author     : howan    
+
+#Other{grid-template-columns:'5'; grid-template-rows:'4'; width: available; position:absolute; top:50%; display: grid; background: #0000ff; grid: 
+                       'Bugs PoeSouls SwordSkills Crystal Vessel'
+                       'YouthScent IliaScent PoeScent ReekfishScent MedicineScent'
+                       'Diababa Fyrus Morpheel Stallord FusedShadows'
+                       'Blizzeta Armogohma Argorok Zant MirrorShard';
+}
+
+*/
+
+@import "font.css";
+/*#FishingRod{grid-area:FishingRod}
+#Slingslot{grid-area:Slingslot}
+#Lantern{grid-area:Lantern}
+#Boomerang{grid-area:Boomerang}
+#Sword{grid-area:Sword}
+#GreenTunic{grid-area:GreenTunic}
+#Bombs{grid-area:Bombs}
+#WaterBomb{grid-area:WaterBomb}
+#Bow{grid-area:Bow}
+#BallChain{grid-area:BallChain}
+#Shield{grid-area:Shield}
+#ZoraArmor{grid-area:ZoraArmor}
+#DominionRod{grid-area:DominionRod}
+#Spinner{grid-area:Spinner}
+#Clawshot{grid-area:Clawshot}
+#Hawkeye{grid-area:Hawkeye}
+#IronBoots{grid-area:IronBoots}
+#MagicArmor{grid-area:MagicArmor}
+#Skybook{grid-area:Skybook}
+#Bottles{grid-area:Bottle}
+#AuruMemo{grid-area:AuruMemo}
+#AsheiSketch{grid-area:AsheiSketch}
+#IliaCharm{grid-area:IliaCharm}
+#Wallet{grid-area:Wallet}
+#Bugs{grid-area:Bugs}
+#PoeSouls{grid-area:PoeSouls}
+#SwordSkills{grid-area:SwordSkills}
+#Crystal{grid-area:Crystal}
+#Vessels{grid-area:Vessel}
+#YouthScent{grid-area:YouthScent}
+#IliaScent{grid-area:IliaScent}
+#PoeScent{grid-area:PoeScent}
+#ReekfishScent{grid-area:ReekfishScent}
+#MedicineScent{grid-area:MedicineScent}
+#Diababa{grid-area:Diababa}
+#Fyrus{grid-area:Fyrus}
+#Morpheel{grid-area:Morpheel}
+#Stallord{grid-area:Stallord}
+#FusedShadows{grid-area:FusedShadows}
+#Blizzeta{grid-area:Blizzeta}
+#Armogohma{grid-area:Armogohma}
+#Argorok{grid-area:Argorok}
+#Zant{grid-area:Zant}
+#MirrorShard{grid-area:MirrorShard}*/
+/*.tracker{width:12px; height: 120px;background-image:url('.\images\ItemBox.png');z-index:1;} */
+
+#Items{grid-template-columns:6; grid-template-rows:4; display: grid;}
+
+.gridContainer > button {text-align:center; 
+                        background-image:url('.\images\ItemBox.png');
+                        height:60px;width:60px;}
+.gridContainer{width:365px; display:grid; grid-auto-flow:row; grid-auto-rows:120px; 
+               grid-auto-columns:120px; grid-template-columns: auto auto auto auto auto auto; 
+               grid-template-rows: auto auto auto auto;}
+

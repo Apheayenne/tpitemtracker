@@ -1,0 +1,332 @@
+{
+    "Items":[
+        "FishingRod":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 2,
+            "Images":{
+                "Default":"",
+                "Rod":"",
+                "Earring":"" 
+            }
+        },
+        "Slingshot":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Slingshot":"",
+            }
+        },
+        "Lantern":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "lantern":"",
+            }
+        },
+        "Boomerang":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Boomerang":""
+            }
+        },
+        "Sword":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 4,
+            "Images":{
+                "Default":"",
+                "Wooden":"",
+                "Ordon":"",
+                "Master":"",
+                "Light":""
+            }
+        },
+        "GreenTunic":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Tunic":""
+            }
+        },
+        "Bombs":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 4,
+            "Images":{
+                "Default":"",
+                "Bombs":""
+                "GiantBag":""
+            }
+        },
+        "WaterBombs":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+            }
+        },
+        "Bow":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 3,
+            "Images":{
+                "Default":"",
+                "Bow":"",
+                "BigQuiver":"",
+                "GiantQuiver":""
+            }
+        },
+        "BallChain":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "BallChain":""
+            }
+        },
+        "Shield":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 2,
+            "Images":{
+                "Default":"",
+                "OrdonShield":"",
+                "HylianShield":""
+            }
+        },
+        "ZoraArmor":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "ZoraArmor":""
+            }
+        },
+        "DominionRod":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 2,
+            "Images":{
+                "Default":"",
+                "Uncharged":"",
+                "Charged":""
+            }
+        },
+        "Spinner":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Spinner":""
+            }
+        },
+        "Clawshot":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 2,
+            "Images":{
+                "Default":"",
+                "Single":"",
+                "Double":""
+            }
+        },
+        "Hawkeye":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Hawkeye":""
+            }
+        },
+        "IronBoots":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "IronBoots":""
+            }
+        },
+        "MagicArmor":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "MagicArmor":""
+            }
+        },
+        "Skybook":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 7,
+            "Images":{
+                "Default":"",
+                "Book":""
+                "Characters":""
+            }
+        },
+        "Bottles":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 4,
+            "Images":{
+                "Default":"",
+                "Bottle":""
+            }
+        },
+        "PoeSouls":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 60,
+            "Images":{
+                "Default":"",
+                "Souls":""
+            }
+        },
+        "SwordSkills":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 4,
+            "Images":{
+                "Default":"",
+                "Skills":""
+            }
+        },
+        "Crystal":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Chrystal":""
+            }
+        },
+        "Vessel":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 3,
+            "Images":{
+                "Default":"",
+                "Faron":"",
+                "Eldin":"",
+                "Lanayru":""
+            }
+        },
+        "YouthScent":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Scent":""
+            }
+        },
+        "IliaScent":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Scent":""
+            }
+        },
+        "PoeScent":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Scent":""
+            }
+        },
+        "ReekfishScent":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Scent":""
+            }
+        },
+        "MedicineScent":{
+            "default": 0,
+            "progressive": false,
+            "mincount": 0,
+            "maxcount": 1,
+            "Images":{
+                "Default":"",
+                "Scent":""
+            }
+        }
+        "FusedShadow":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 3,
+            "Images":{
+                "Default":"",
+                "Forest":"",
+                "Fire":"",
+                "Water":""
+            }
+        }
+        "MirrorShard":{
+            "default": 0,
+            "progressive": true,
+            "mincount": 0,
+            "maxcount": 4,
+            "Images":{
+                "Default":"",
+                "Arbiter":"",
+                "Snowpeak":"",
+                "TempleTime":"",
+                "CitySky":""
+            }
+        }
+
+    ]
+}
