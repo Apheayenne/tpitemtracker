@@ -62,12 +62,37 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 #MirrorShard{grid-area:MirrorShard}*/
 /*.tracker{width:12px; height: 120px;background-image:url('.\images\ItemBox.png');z-index:1;} */
 
-#Items{grid-template-columns:6; grid-template-rows:4; display: grid;}
+#Items{grid-template-columns:6; grid-template-rows:4;}
+#Other{grid-template-columns:5; grid-template-rows:4;}
 
-.gridContainer > button {text-align:center; 
-                        background-image:url('.\images\ItemBox.png');
-                        height:60px;width:60px;}
-.gridContainer{width:365px; display:grid; grid-auto-flow:row; grid-auto-rows:120px; 
-               grid-auto-columns:120px; grid-template-columns: auto auto auto auto auto auto; 
-               grid-template-rows: auto auto auto auto;}
+button.tracker{text-align:center;
+                background-image:url('.\images\ItemBox.png');
+                width:50px;
+                height:50px;
+}
+
+.ItemGridContainer{
+    padding-right:25px;
+    display:grid;
+    width:300px;
+    height:200px;
+    overflow:auto;
+    grid-auto-flow:row;
+    grid-auto-rows:60px;
+    grid-auto-columns:60px;
+    grid-template-columns:auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.OtherGridContainer{
+    align-content:center;
+    width:250px;
+    height:200px;
+    display:grid;
+    padding-left:25px;
+    grid-auto-flow:row;
+    grid-auto-rows:120px; 
+    grid-auto-columns:120px; 
+    grid-template-columns: auto auto auto auto auto; 
+    grid-template-rows: auto auto auto auto;
+}
 

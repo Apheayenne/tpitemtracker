@@ -11,7 +11,7 @@ body,html { background-color: #737373; padding: 0; margin: 0;}
 header{background-color: #373737; height: 45px; padding: 0px 5px; outline: none;}
 header button{font-family: Ravenna; color: #ffffff; background: none; width: 150px; 
               height: 30px; outline: none; position: relative; top: 7px; border: none; 
-              border:solid}
+              border:solid; z-index: 1;}
 header button:hover {color: #00ffff;}
 header button:active {color: #213126;}
 #discord {left: 155px}
