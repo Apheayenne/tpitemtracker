@@ -1,13 +1,5 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Feb 8, 2022, 9:15:28 PM
-    Author     : howan
-*/
 
-@import "./fonts/Ravenna/Ravenna.css";
+@import "/fonts/Ravenna/Ravenna.css";
 
 :root {
     font-size: 14px;

@@ -1,5 +1,6 @@
 {
     "Items":[
+    {
         "FishingRod":{
             "default": 0,
             "progressive": true,
@@ -7,10 +8,12 @@
             "maxcount": 2,
             "Images":{
                 "Default":"",
-                "Rod":"",
-                "Earring":"" 
+                "Upgrade1":["Rod", ""],
+                "Upgrade2":["Earring",""]
             }
-        },
+        }
+    },
+    {
         "Slingshot":{
             "default": 0,
             "progressive": false,
@@ -18,9 +21,11 @@
             "maxcount": 1,
             "Images":{
                 "Default":"",
-                "Slingshot":"",
+                "Upgrade1":["Slingshot", ""]
             }
-        },
+        }
+    },
+    {
         "Lantern":{
             "default": 0,
             "progressive": false,
@@ -28,9 +33,11 @@
             "maxcount": 1,
             "Images":{
                 "Default":"",
-                "lantern":"",
+                "Upgrade1":["Lantern", ""]
             }
-        },
+        }
+    },
+    {
         "Boomerang":{
             "default": 0,
             "progressive": false,
@@ -38,9 +45,11 @@
             "maxcount": 1,
             "Images":{
                 "Default":"",
-                "Boomerang":""
+                "Upgrade1":["Boomerang", ""]
             }
-        },
+        }
+    },
+    {
         "Sword":{
             "default": 0,
             "progressive": true,
@@ -48,12 +57,14 @@
             "maxcount": 4,
             "Images":{
                 "Default":"",
-                "Wooden":"",
-                "Ordon":"",
-                "Master":"",
-                "Light":""
+                "Upgrade1":["Wooden", ""],
+                "Upgrade2":["Ordon", ""],
+                "Upgrade3":["Master", ""],
+                "Upgrade4":["Light", ""]
             }
-        },
+        }
+    },
+    {
         "GreenTunic":{
             "default": 0,
             "progressive": false,
@@ -61,9 +72,11 @@
             "maxcount": 1,
             "Images":{
                 "Default":"",
-                "Tunic":""
+                "Upgrade1":["Tunic", ""]
             }
-        },
+        }
+    },
+    {
         "Bombs":{
             "default": 0,
             "progressive": true,
@@ -71,19 +84,23 @@
             "maxcount": 4,
             "Images":{
                 "Default":"",
-                "Bombs":""
+                "Bombs":"",
                 "GiantBag":""
             }
-        },
+        }
+    },
+    {
         "WaterBombs":{
             "default": 0,
             "progressive": false,
             "mincount": 0,
             "maxcount": 1,
             "Images":{
-                "Default":"",
+                "Default":""
             }
-        },
+        }
+    },
+    {
         "Bow":{
             "default": 0,
             "progressive": true,
@@ -95,7 +112,9 @@
                 "BigQuiver":"",
                 "GiantQuiver":""
             }
-        },
+        }
+    },
+    {
         "BallChain":{
             "default": 0,
             "progressive": false,
@@ -105,7 +124,9 @@
                 "Default":"",
                 "BallChain":""
             }
-        },
+        }
+    },
+    {
         "Shield":{
             "default": 0,
             "progressive": true,
@@ -116,7 +137,9 @@
                 "OrdonShield":"",
                 "HylianShield":""
             }
-        },
+        }
+    },
+    {
         "ZoraArmor":{
             "default": 0,
             "progressive": false,
@@ -126,7 +149,9 @@
                 "Default":"",
                 "ZoraArmor":""
             }
-        },
+        }
+    },
+    {
         "DominionRod":{
             "default": 0,
             "progressive": true,
@@ -137,7 +162,9 @@
                 "Uncharged":"",
                 "Charged":""
             }
-        },
+        }
+    },
+    {
         "Spinner":{
             "default": 0,
             "progressive": false,
@@ -147,7 +174,9 @@
                 "Default":"",
                 "Spinner":""
             }
-        },
+        }
+    },
+    {
         "Clawshot":{
             "default": 0,
             "progressive": true,
@@ -158,7 +187,9 @@
                 "Single":"",
                 "Double":""
             }
-        },
+        }
+    },
+    {        
         "Hawkeye":{
             "default": 0,
             "progressive": false,
@@ -168,7 +199,9 @@
                 "Default":"",
                 "Hawkeye":""
             }
-        },
+        }
+    },
+    {
         "IronBoots":{
             "default": 0,
             "progressive": false,
@@ -178,7 +211,9 @@
                 "Default":"",
                 "IronBoots":""
             }
-        },
+        }
+    },
+    {
         "MagicArmor":{
             "default": 0,
             "progressive": false,
@@ -188,7 +223,9 @@
                 "Default":"",
                 "MagicArmor":""
             }
-        },
+        }
+    },
+    {
         "Skybook":{
             "default": 0,
             "progressive": true,
@@ -196,10 +233,12 @@
             "maxcount": 7,
             "Images":{
                 "Default":"",
-                "Book":""
+                "Book":"",
                 "Characters":""
             }
-        },
+        }
+    },
+    {
         "Bottles":{
             "default": 0,
             "progressive": true,
@@ -209,7 +248,9 @@
                 "Default":"",
                 "Bottle":""
             }
-        },
+        }
+    },
+    {        
         "PoeSouls":{
             "default": 0,
             "progressive": true,
@@ -219,7 +260,9 @@
                 "Default":"",
                 "Souls":""
             }
-        },
+        }
+    },
+    {
         "SwordSkills":{
             "default": 0,
             "progressive": true,
@@ -229,7 +272,9 @@
                 "Default":"",
                 "Skills":""
             }
-        },
+        }
+    },
+    {
         "Crystal":{
             "default": 0,
             "progressive": false,
@@ -239,7 +284,9 @@
                 "Default":"",
                 "Chrystal":""
             }
-        },
+        }
+    },
+    {
         "Vessel":{
             "default": 0,
             "progressive": true,
@@ -251,7 +298,9 @@
                 "Eldin":"",
                 "Lanayru":""
             }
-        },
+        }
+    },
+    {
         "YouthScent":{
             "default": 0,
             "progressive": false,
@@ -261,7 +310,9 @@
                 "Default":"",
                 "Scent":""
             }
-        },
+        }
+    },
+    {
         "IliaScent":{
             "default": 0,
             "progressive": false,
@@ -271,7 +322,9 @@
                 "Default":"",
                 "Scent":""
             }
-        },
+        }
+    },
+    {
         "PoeScent":{
             "default": 0,
             "progressive": false,
@@ -281,7 +334,9 @@
                 "Default":"",
                 "Scent":""
             }
-        },
+        }
+    },
+    {
         "ReekfishScent":{
             "default": 0,
             "progressive": false,
@@ -291,7 +346,9 @@
                 "Default":"",
                 "Scent":""
             }
-        },
+        }
+    },
+    {
         "MedicineScent":{
             "default": 0,
             "progressive": false,
@@ -302,6 +359,8 @@
                 "Scent":""
             }
         }
+    },
+    {
         "FusedShadow":{
             "default": 0,
             "progressive": true,
@@ -314,6 +373,8 @@
                 "Water":""
             }
         }
+    },
+    {
         "MirrorShard":{
             "default": 0,
             "progressive": true,
@@ -327,6 +388,5 @@
                 "CitySky":""
             }
         }
-
-    ]
+    }]
 }

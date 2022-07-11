@@ -1,0 +1,158 @@
+{
+    "itemGroup": [
+        {"FishingRodGroup": [
+            {"ItemsInGroup": 0},
+            {"Default": true}]
+        },
+        {"SlingshotGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"LanternGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"SwordGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BoomerrangGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"IronBootsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BowGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"ShieldGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BombGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"WaterBombGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"ClawshotGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"TunicGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"SpinnerGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"ChainballGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"HawkeyeGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"ZoraArmorGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"DominionRodGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"IlliaCharmGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BottleGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"MagicArmorGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"AuruMemoGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"AsheiSketchGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"SkybookGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BugsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"PoeSoulsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"SwordSkillsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"CrystalGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"VesselsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"ScentsGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"BossesGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        },
+        {"CollectablesGroup": [
+                {"ItemsInGroup": 0},
+                {"Default": true}
+            ]
+        }
+    ]
+}
