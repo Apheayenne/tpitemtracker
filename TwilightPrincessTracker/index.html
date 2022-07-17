@@ -3,84 +3,83 @@
 <html>
 
 <head>
-        <meta charset="UTF-8">
-        <title>Twilight Princess Tracker</title>
-        <link rel="stylesheet" type="text/css" href="./src/style/header.css">
-        <link rel="stylesheet" type="text/css" href="./src/style/styles.css">
-        <link rel="stylesheet" type="text/css" href="./src/style/w3.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <script type="text/javascript" src="/JavaScipt/subWindows.js"></script>
+    <meta charset="UTF-8">
+    <title>Twilight Princess Tracker</title>
+    <link rel="stylesheet" type="text/css" href="./src/style/header.css">
+    <link rel="stylesheet" type="text/css" href="./src/style/styles.css">
+    <link rel="stylesheet" type="text/css" href="./src/style/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script type="text/javascript" src="/JavaScipt/subWindows.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-        <header>
-                <div id="fileDropdown">
-                        <button id="fileButton" type="submit">File &#9660</button>;
-                        <div id="fileSubmenu">
-                                <button id="save">Save</button>
-                                <button id="load">Load</button>
-                        </div>
-                </div>
-                <!--<a href="https://discord.com/channels/596503283124666368/596508123301281793"><button id="discord" 
-            class="discord">Discord</button></a>-->
-                <a href="#"><button id="discord">Discord</button></a>
-                <button id="randoSettings" type="submit">Randomizer Settings</button>
-                <button id="trackerSettings" type="submit">Tracker Settings</button>
-        </header>
-        <p id="textbox">No Item Selected</p>
-        <div id='trackerArea'>
-                <button id="slideNav" value="&#187" onclick="sidebar()">&#187</button>
+    <header>
+        <div id="fileDropdown">
+            <button id="fileButton" type="submit">File &#9660</button>;
+            <div id="fileSubmenu">
+                <button id="save">Save</button>
+                <button id="load">Load</button>
+            </div>
         </div>
+        <!--<a href="https://discord.com/channels/596503283124666368/596508123301281793"><button id="discord" class="discord">Discord</button></a>-->
+        <button id="randoSettings" type="submit">Randomizer Settings</button>
+        <button id="trackerSettings" type="submit">Tracker Settings</button>
+    </header>
+    <section>
+        <button id="open" onclick="opensidebar()">&#187</button>
         <div id="sidebar">
-                <div id='Item' class="gridContainer">
-                        <button id="FishingRod" class="grid-item tooltip" title="Fishing Rod" onclick="button_pressed(this.id)"><img src="/images/Items/Rod1.png" alt="Fishing Rod" width="55" height="55"></button>
-                        <button id="Slingslot" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Slingshot.png" alt="Slingslot" width="55" height="55"></button>
-                        <button id="Lantern" class="grid-item tooltip" title="Hello World!"onclick="button_pressed(this.id)"><img src="/images/Items/Lantern.png" alt="Lantern" width="55"height="55"></button>
-                        <button id="Sword" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Sword1.png" alt="Sword" width="55" height="55"></button>
-                        <button id="Boomerang" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Boomerang.png" alt="Boomerang" width="55" height="55"></button>
-                        <button id="IronBoots" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/IronBoots.png" alt="Iron Boots" width="55" height="55"></button>
-                        <button id="Bow" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Bow1.png" alt="Bow" width="55" height="55"></button>
-                        <button id="Shield" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Shield1.png" alt="Shield" width="55" height="55"></button>
-                        <button id="Bombs" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Bombs.png" alt="Bombs" width="55" height="55"></button>
-                        <button id="WaterBomb" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/WBombs.png" alt="Water Bombs" width="55" height="55"></button>
-                        <button id="Clawshot" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Clawshot1.png" alt="Clawshot" width="55" height="55"></button>
-                        <button id="GreenTunic" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/GTunic.png" alt="Tunic" width="55" height="55"></button>
-                        <button id="Spinner" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Spinner.png" alt="Spinner" width="55" height="55"></button>
-                        <button id="BallChain" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Chainball.png" alt="Ball and Chain" width="55" height="55"></button>
-                        <button id="Hawkeye" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Hawkeye.png" alt="Hawkeye" width="55" height="55"></button>
-                        <button id="ZoraArmor" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/ZoraArmor.png" alt="Zora Armor" width="55" height="55"></button>
-                        <button id="DominionRod" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Dominion.png" alt="Dominion Rod" width="55" height="55"></button>
-                        <button id="IliaCharm" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Ilias_Charm.png" alt="Ilia Charm" width="55" height="55"></button>
-                        <button id="Bottles" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Bottle.png" alt="Bottles" width="55" height="55"></button>
-                        <button id="MagicArmor" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/MagicArmor.png" alt="Magic Armor" width="55" height="55"></button>
-                        <button id="AuruMemo" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Memo.png" alt="Auru Memo" width="55" height="55"></button>
-                        <button id="AsheiSketch" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Sketch.png" alt="Ashei Sketch" width="55" height="55"></button>
-                        <button id="Skybook" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Skybook.png" alt="Skybook" width="55"height="55"></button>
-                        <button id="Wallet" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Wallet1.png" alt="Wallet" width="55" height="55"></button>
-                </div>
-                <div id='Other' class="gridContainer">
-                        <button id="Bugs" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Bugs.png" alt="Bugs" width="55" height="55"></button>
-                        <button id="PoeSouls" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Soul.png" alt="Poe Souls" width="55" height="55"></button>
-                        <button id="SwordSkills" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Skills.png" alt="Sword Skills" width="55" height="55"></button>
-                        <button id="Crystal" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Crystal.png" alt="Crystal" width="55" height="55"></button>
-                        <button id="Vessels" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Vessel0.png" alt="Vessels" width="55" height="55"></button>
-                        <button id="YouthScent" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/YouthScent.png" alt="Youth's Scent" width="55" height="55"></button>
-                        <button id="IliaScent" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/IliaScent.png" alt="Ilia's Scent" width="55" height="55"></button>
-                        <button id="PoeScent" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/PoeScent.png" alt="Poe's Scent" width="55" height="55"></button>
-                        <button id="ReekfishScent" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/ReekfishScent.png" alt="Reekfish Scent" width="55" height="55"></button>
-                        <button id="MedicineScent" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/MedicineScent.png" alt="Medicine Scent" width="55" height="55"></button>
-                        <button id="Diababa" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Diababa.png" alt="Diababa" width="55" height="55"></button>
-                        <button id="Fyrus" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Fyrus.png" alt="Fyrus" width="55" height="55"></button>
-                        <button id="Morpheel" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Morpheel.png" alt="Morpheel" width="55" height="55"></button>
-                        <button id="Stallord" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Stallord.png" alt="Stallord" width="55" height="55"></button>
-                        <button id="FusedShadows" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Shadow0.png" alt="Fused Shadows" width="55" height="55"></button>
-                        <button id="Blizzeta" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Blizzeta.png" alt="Blizzeta" width="55" height="55"></button>
-                        <button id="Armogohma" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Armogohma.png" alt="Armogohma" width="55" height="55"></button>
-                        <button id="Argorok" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Argorok.png" alt="Argorok" width="55" height="55"></button>
-                        <button id="Zant" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Zant.png" alt="Zant" width="55" height="55"></button>
-                        <button id="MirrorShard" class="grid-item tooltip" title="Hello World!" onclick="button_pressed(this.id)"><img src="/images/Items/Shard0.png" alt="Mirror Shards" width="55" height="55"></button>
-                </div>
-        </div>
+            <a id="close" onclick="closesidebar()">&times;</a>
+            <div id='Item' class="grid">
+                <a id="FishingRod" 	class="grid-item" title="Fishing Rod" 		onclick="button_pressed(this.id)"><img width="60" height="600"></a>
+                <a id="Slingslot"	class="grid-item" title="Slingshot" 		onclick="button_pressed(this.id)"><img width="60" height="60"></a>
+                <a id="Lantern"		class="grid-item" title="Lantern" 			onclick="button_pressed(this.id)"></a>
+                <a id="Swords"		class="grid-item" title="Sword" 			onclick="button_pressed(this.id)"></a>
+                <a id="Boomerang" 	class="grid-item" title="Boomerang" 		onclick="button_pressed(this.id)"></a>
+                <a id="IronBoots" 	class="grid-item" title="Iron Boots" 		onclick="button_pressed(this.id)"></a>
+                <a id="Bow"			class="grid-item" title="Bow" 				onclick="button_pressed(this.id)"></a>
+                <a id="Shield"		class="grid-item" title="Shield" 			onclick="button_pressed(this.id)"></a>
+                <a id="Bombs"		class="grid-item" title="Bombs" 			onclick="button_pressed(this.id)"></a>
+                <a id="WaterBomb" 	class="grid-item" title="Water Bombs" 		onclick="button_pressed(this.id)"></a>
+                <a id="Clawshot"	class="grid-item" title="Clawshot" 			onclick="button_pressed(this.id)"></a>
+                <a id="GreenTunic" 	class="grid-item" title="Green Tunic" 		onclick="button_pressed(this.id)"></a>
+                <a id="Spinner" 	class="grid-item" title="Spinner" 			onclick="button_pressed(this.id)"></a>
+                <a id="BallChain" 	class="grid-item" title="Ball and Chain" 	onclick="button_pressed(this.id)"></a>
+                <a id="Hawkeye" 	class="grid-item" title="Hawkeye" 			onclick="button_pressed(this.id)"></a>
+                <a id="ZoraArmor" 	class="grid-item" title="Zora Armor" 		onclick="button_pressed(this.id)"></a>
+                <a id="DominionRod" class="grid-item" title="Dominion Rod" 		onclick="button_pressed(this.id)"></a>
+                <a id="IliaCharm" 	class="grid-item" title="Ilia's Charm" 		onclick="button_pressed(this.id)"></a>
+                <a id="Bottles"		class="grid-item" title="Bottles" 			onclick="button_pressed(this.id)"></a>
+                <a id="MagicArmor" 	class="grid-item" title="Magic Armor" 		onclick="button_pressed(this.id)"></a>
+                <a id="AuruMemo" 	class="grid-item" title="Auru's Memo" 		onclick="button_pressed(this.id)"></a>
+                <a id="AsheiSketch" class="grid-item" title="Ashei's Sketch" 	onclick="button_pressed(this.id)"></a>
+                <a id="Skybook" 	class="grid-item" title="Skybook" 			onclick="button_pressed(this.id)"></a>
+                <a id="Wallet" 		class="grid-item" title="Wallet" 			onclick="button_pressed(this.id)"></a>
+            </div>
+            <hr class="solid">
+            <div id='Other' class="grid">
+                <a id="Bugs" 		    class="grid-item" title="Bugs" 				onclick="button_pressed(this.id)"></a>
+                <a id="PoeSouls" 	    class="grid-item" title="Poe Souls" 		onclick="button_pressed(this.id)"></a>
+                <a id="SwordSkills"     class="grid-item" title="Sword Skills" 		onclick="button_pressed(this.id)"></a>
+                <a id="Crystal" 	    class="grid-item" title="Crystal" 			onclick="button_pressed(this.id)"></a>
+                <a id="Vessels" 	    class="grid-item" title="Vessels" 			onclick="button_pressed(this.id)"></a>
+                <a id="YouthScent" 	    class="grid-item" title="Youth's Scent" 	onclick="button_pressed(this.id)"></a>
+                <a id="IliaScent" 	    class="grid-item" title="Ilia's Scent" 		onclick="button_pressed(this.id)"></a>
+                <a id="PoeScent" 	    class="grid-item" title="Poe Scent" 		onclick="button_pressed(this.id)"></a>
+                <a id="ReekfishScent" 	class="grid-item" title="Reekfish Scent" 	onclick="button_pressed(this.id)"></a>
+                <a id="MedicineScent" 	class="grid-item" title="Medicine Scent" 	onclick="button_pressed(this.id)"></a>
+                <a id="Diababa" 		class="grid-item" title="Diababa" 			onclick="button_pressed(this.id)"></a>
+                <a id="Fyrus" 			class="grid-item" title="Fyrus" 			onclick="button_pressed(this.id)"></a>
+                <a id="Morpheel" 		class="grid-item" title="Morpheel" 			onclick="button_pressed(this.id)"></a>
+                <a id="Stallord" 		class="grid-item" title="Stallord" 			onclick="button_pressed(this.id)"></a>
+                <a id="FusedShadows"	class="grid-item" title="Fused Shadows" 	onclick="button_pressed(this.id)"></a>
+                <a id="Blizzeta"		class="grid-item" title="Blizzeta" 			onclick="button_pressed(this.id)"></a>
+                <a id="Armogohma" 		class="grid-item" title="Armogohma" 		onclick="button_pressed(this.id)"></a>
+                <a id="Argorok" 		class="grid-item" title="Argorok" 			onclick="button_pressed(this.id)"></a>
+                <a id="Zant" 			class="grid-item" title="Zant" 				onclick="button_pressed(this.id)"></a>
+                <a id="MirrorShard" 	class="grid-item" title="Mirror Shard" 		onclick="button_pressed(this.id)"></a>
+                </div>        </div>
+    </section>  
 </body>
 
 </html>

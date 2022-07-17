@@ -1,25 +1,39 @@
+//sidebarOut = 0, sidebarIn = 1
+var inOut = 1;
+
 //DELETE - Only for Testing
 function button_pressed(id){
     document.getElementById("textbox").innerHTML = id;
 }
 
 //To determine whether the sidebar is in or out and call the necessary function
-function sidebar(){
-    var buttonVal = document.getElementById("slideNav").value;
-    console.log(buttonVal);
-    if(buttonVal == "&#187" ){
-        sidebarIn();
-    }else sidebarOut();
-}
+// function sidebar(){
+//     if(inOut == 0 ){
+//         sidebarIn();
+//     }else if (inOut == 1){
+//         sidebarOut();
+//     }
+// }
 
 //When the sidebar is out and needs to go in
-function sidebarOut(){
+function closesidebar(){
+    document.getElementById("sidebar").style.width = "0px";
+    // sliderChange();
     // document.getElementById(textawbox).innerHTML = "Going In";
-    console.log("Going In");
+    // button_pressed("Going In");
+
 }
 
 //When the sidebar is in, and needs to pull out
-function sidebarIn(){
+function opensidebar(){
+    // document.getElementById("open").style.left = "260px";
+    document.getElementById("sidebar").style.width = "300px";
+    
+    // sliderChange();
     // document.getElementById(textbox).innerHTML = "Going Out";
-    console.log("Going Out");
+    // button_pressed("Going Out");
+}
+
+function sliderChange(){
+    return Math.abs(inOut - 1);
 }
